@@ -39,7 +39,7 @@ uniqueCount([1,1,2,2,3,4,5,5,5,6,6,7,8,8])
 
 // 3rd method
 
-function IandJ(aa){
+function IandJ(arr){
 
     if(arr.length > 0){
         let i = 0;
@@ -52,7 +52,7 @@ function IandJ(aa){
             }
         }
 
-        console.log(`unique numbers ${i+1}`)
+     console.log(`unique numbers ${i+1}`)
     }else{
         throw new Error('array is empty')
     }
